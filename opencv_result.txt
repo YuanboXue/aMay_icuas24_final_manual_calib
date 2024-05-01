@@ -1,0 +1,99 @@
+[8. 5. 0.]]
+mtx:
+ [[431.96764491   0.         312.81764471]
+ [  0.         433.37082925 201.81198631]
+ [  0.           0.           1.        ]]
+
+[1.76 1.1  0.  ]]
+mtx:
+ [[431.96674802   0.         312.81773733]
+ [  0.         433.37008483 201.81272811]
+ [  0.           0.           1.        ]]
+
+[4.  2.5 0. ]]
+mtx:
+ [[431.96764491   0.         312.81764471]
+ [  0.         433.37082924 201.81198631]
+ [  0.           0.           1.        ]]
+
+ ywy_comment: the 3d_objpoints coor has no affect on the camera intrinsics
+
+
+manual selection:
+  [[388. 176.]]
+
+ [[418. 176.]]
+
+ [[449. 177.]]
+
+ [[483. 177.]]]
+Traceback (most recent call last):
+
+
+ [[388.57773  268.2629  ]]
+
+ [[422.47916  268.65656 ]]
+
+ [[456.5566   269.53986 ]]
+
+ [[491.4186   270.41974 ]]]
+
+
+OPNCV images 01-14  resize image 长宽都变成2
+# Calculate the new dimensions
+new_dimensions = (original_width * 2, original_height * 2)
+# Resize the image
+resized_image = cv.resize(img, new_dimensions, interpolation = cv.INTER_LINEAR)
+
+Number of object points: 13
+Number of image points: 13
+mtx:
+ [[1.06777455e+03 0.00000000e+00 6.86856386e+02]
+ [0.00000000e+00 1.06835213e+03 4.72558363e+02]
+ [0.00000000e+00 0.00000000e+00 1.00000000e+00]]
+
+OPNCV images 01-14
+Number of object points: 13
+Number of image points: 13
+mtx:
+ [[531.14989394   0.         341.82293428]
+ [  0.         531.43375586 235.04374204]
+ [  0.           0.           1.        ]]
+
+total error: 0.049656525222536864
+
+
+OPNCV images 03-14
+Number of object points: 11
+Number of image points: 11
+mtx:
+ [[531.76944873   0.         342.01060215]
+ [  0.         531.95281736 234.64548142]
+ [  0.           0.           1.        ]]
+
+total error: 0.04678934570374768
+
+OPNCV manual left01.jpg
+corners.shape() is (54, 1, 2)
+mtx:
+ [[696.14479252   0.         295.27952914]
+ [  0.         612.59498587 356.29547645]
+ [  0.           0.           1.        ]]
+
+OPNCV manual left02.jpg=====================================
+corners.shape() is (54, 1, 2)
+mtx:
+ [[744.5157979    0.         198.81394192]
+ [  0.         785.3847264  184.66055259]
+ [  0.           0.           1.        ]]
+
+OPNCV manual left01 & left02.jpg=====================================
+Number of object points: 2
+Number of image points: 2
+mtx:
+ [[561.76598009   0.         289.23376366]
+ [  0.         571.93157203 248.45150658]
+ [  0.           0.           1.        ]]
+
+total error: 0.2737325612748166
+
