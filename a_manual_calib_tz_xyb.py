@@ -13,8 +13,8 @@ script_dir = os.path.dirname(__file__)
 # save_picked_points_dir = "./opencv_left03.txt"
 # image = cv.imread(opencv_img_path)
 
-icuas_img_path = os.path.join(script_dir, "icuas_data/icuas_025.png")
-save_picked_points_dir = "./icuas_025_放大二倍.txt"
+icuas_img_path = os.path.join(script_dir, "icuas_data/icuas_028.png")
+save_picked_points_dir = "./icuas_028_放大二倍.txt"
 image = cv.imread(icuas_img_path)
 
 # Initialize the list of points.
